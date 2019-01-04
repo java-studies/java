@@ -37,5 +37,9 @@ public class Variables {
 		
 		char letter = 'a';
 		System.out.println(letter);
+		
+		int i = 5; // i recebe uma cópia do valor 5
+		int j = i; // j recebe uma cópia do valor de i
+		i = i + 1; // i vira 6, j continua 5
     }
 }
