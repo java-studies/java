@@ -4,10 +4,12 @@ public class CondicionalLoop {
 
 	public static void main(String[] args) {
 
+		// Loop if
 		if (true) {
 			System.out.println("True");
 		}
 		
+		// Loop if/else
 		if (false) {
 			System.out.println("True");
 		} else {
@@ -19,6 +21,7 @@ public class CondicionalLoop {
 			System.out.println("Number is 10 or less");
 		}
 		
+		// Loop if multiple validation
 		int num1 = 5;
 		int num2 = 15;
 		if (num1 < 6 && num2 >= 15) {
@@ -33,12 +36,14 @@ public class CondicionalLoop {
 			System.out.println("Condition are true");
 		}
 		
+		// Loop while
 		int num = 0;
 		while (num < 10) {
 			System.out.println("Number: " + num);
 			num++;
 		}
 		
+		// Loop do...while
 		do {
 			System.out.println("Number: " + num);
 			num++;
