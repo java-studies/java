@@ -1,13 +1,13 @@
 package java.learning;
 
-public class Accont {
+public class Account {
 	
-	String number;
+	String codeNumber;
 	String namePerson;
 	double money;
 	boolean status;
 
-	public Accont(){
+	public Account(){
 		
 	}
 }
