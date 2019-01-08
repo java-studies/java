@@ -21,4 +21,22 @@ public class Account {
 		this.money = money;
 		this.status = status;
 	}
+
+	public String getCodeNumber() {
+		return codeNumber;
+	}
+
+	public String getNamePerson() {
+		return namePerson;
+	}
+
+	public double getMoney() {
+		return money;
+	}
+
+	public boolean isStatus() {
+		return status;
+	}
+	
+	
 }

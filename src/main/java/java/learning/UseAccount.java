@@ -46,5 +46,17 @@ public class UseAccount {
 		} else {
 			System.out.println("Status: Desactive");
 		}
+		
+		Account account3 = new Account("3", "Antonio GD", 500.99, true);
+		System.out.println("----Account 3----");
+		System.out.println("Number: " + account3.getCodeNumber());
+		System.out.println("Name of Person: " + account3.getNamePerson());
+		System.out.println("Money: " + account3.getMoney());
+		
+		if (account3.isStatus()) {
+			System.out.println("Status: Active");
+		} else {
+			System.out.println("Status: Desactive");
+		}
 	}
 }
