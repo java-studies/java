@@ -37,6 +37,22 @@ public class Account {
 	public boolean isStatus() {
 		return status;
 	}
+
+	public void setCodeNumber(String codeNumber) {
+		this.codeNumber = codeNumber;
+	}
+
+	public void setNamePerson(String namePerson) {
+		this.namePerson = namePerson;
+	}
+
+	public void setMoney(double money) {
+		this.money = money;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
 	
 	
 }
