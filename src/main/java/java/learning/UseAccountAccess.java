@@ -23,5 +23,7 @@ public class UseAccountAccess {
 		} else {
 			System.out.println("Status: Desactive");
 		}
+		
+		System.out.println(account.toString());
 	}
 }

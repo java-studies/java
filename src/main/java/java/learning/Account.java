@@ -7,14 +7,15 @@ public class Account {
 	double money;
 	boolean status;
 
+	// Constructor without parameters
 	public Account() {
 		this.codeNumber = "1";
 		this.namePerson = "Antonio G Dias";
 		this.money = 100.50;
 		this.status = false;
-		
 	}
 	
+	// Constructor with parameters
 	public Account(String codeNumber, String namePerson, double money, boolean status) {
 		this.codeNumber = codeNumber;
 		this.namePerson = namePerson;
